@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Resume from './components/Resume';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Resume />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Welcome to your first assignment
@@ -17,7 +19,7 @@ function App() {
         >
           Click me
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
