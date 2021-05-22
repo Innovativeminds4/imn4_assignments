@@ -18,6 +18,7 @@ const App = () => {
         <Route  path='/resume' component = { Resume } ></Route>
         <Route  path='/projects' component = { Projects } ></Route>
         <Route  path='/contact' component = { Contact } ></Route>
+        <Route component = { Home }></Route>
       </Switch>
       <Footer></Footer>
     </div>
