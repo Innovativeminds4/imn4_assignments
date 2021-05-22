@@ -11,7 +11,7 @@ class Resume extends Component {
                     <div className='detail'>
                         <h1 className='position'>Work <br></br>Experience</h1>
                         <p className='period'>2020 -  Present</p>
-                        <h1 className='info-head' style={{marginLeft: "2%"}}>Editor</h1>
+                        <h1 className='info-head'>Editor</h1>
                     </div>
                     <div className='full-details'>
                         <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>

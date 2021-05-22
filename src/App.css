@@ -140,6 +140,12 @@
   text-decoration: none;
   color: black;
 }
+
+.links {
+  position: absolute;
+  margin-left: 75%;
+}
+
 /* navigation bar links */
 .noTextDecoration {
   text-decoration: none;
@@ -192,9 +198,10 @@ button:hover {
   color: black;
 }
 
-/*********************** Code for the Resume part ***********************/
+/********************** Code for the Resume part ***********************/
 
 .resume {
+  margin-left: 250px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -203,11 +210,9 @@ button:hover {
 }
 
 .heading h1 {
-  margin-left: 12%;
-  margin-top: 10%;
+  margin-top: 150px;
   font-size: 36px;
   font-weight: 600;
-  /* letter-spacing: 2px; */
 }
 
 .detail {
@@ -216,10 +221,9 @@ button:hover {
 }
 
 .position {
-  margin-left: 12%;
   font-size: 25px;
   letter-spacing: 2px;
-  width: 35%;
+  margin-right: 34%;
 }
 
 .period {
@@ -227,12 +231,13 @@ button:hover {
   float: left;
   margin-top: 7%;
   margin-left: 3%;
+  max-width: 120px;
 }
 
 .info-head {
   font-size: 24px;
   margin-top: 6.5%;
-  margin-left: 3.4%;
+  margin-left: 2%;
 }
 
 .full-details p{
@@ -257,7 +262,7 @@ hr {
 .info-head2 {
   font-size: 24px;
   margin-top: 6%;
-  margin-left: 6.4%;
+  margin-left: 3.4%;
 }
 
 /* My Skills part */
